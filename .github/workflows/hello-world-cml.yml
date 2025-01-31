@@ -1,0 +1,13 @@
+name: Hellow-World-GitHub-Actions
+
+on: push
+
+jobs:
+  hellow-world-job-cml
+
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: check out repository code
+      uses: actions/checkout@v4
+    - run: echo "$(uname -ns && cat /etc/*release* && cat hello_world.txt)"
