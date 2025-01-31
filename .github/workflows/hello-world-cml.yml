@@ -3,7 +3,7 @@ name: Hellow-World-GitHub-Actions
 on: push
 
 jobs:
-  hellow-world-job-cml
+  hello-world-job-cml:
 
   runs-on: ubuntu-latest
 
